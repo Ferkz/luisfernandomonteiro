@@ -20,7 +20,7 @@ body{
     background: linear-gradient(68.15deg, #e7e5e6 16.62%,#52afb9 85.61%);
 }
 .logo{
-    font-size: 1em;
+    font-size: 1.5em;
 	color: #113157;
 
 }
@@ -38,7 +38,7 @@ body{
    display: flex;
 }
 .header{
-    width: 500px;
+    width: 100%;
     display:flex;
     background-color:#bbb;
     margin: 0 auto;
