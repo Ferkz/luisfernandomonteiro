@@ -20,8 +20,9 @@ body{
     background: linear-gradient(68.15deg, #e7e5e6 16.62%,#52afb9 85.61%);
 }
 .logo{
-    font-size: 1em;
-	color: #113157;
+    font-size: 1.5em;
+	  color: #0a0c0e;
+    margin-left: 0;
 
 }
 .nav-bar-menu{
@@ -38,7 +39,7 @@ body{
    display: flex;
 }
 .header{
-    width: 500px;
+    width: 100%;
     display:flex;
     background-color:#bbb;
     margin: 0 auto;
@@ -242,4 +243,7 @@ footer{
 }
 .data  {
     color: #bbb;
+}
+i{
+  color: white;
 }
