@@ -19,12 +19,11 @@ body{
     justify-content: space-around;
     padding: 15px;
     margin-bottom: 10px;
-    background: linear-gradient(68.15deg, #827e8a 16.62%,#978b7a 85.61%);
+    background: linear-gradient(68.15deg, #fcf9f9 16.62%,#faf7f4 85.61%);
     border-bottom: 2px solid white;
 }
 .logo{
     font-size: 1.5em;
-    color: #9CD9F0;
     text-align: center;
 
 }
@@ -33,7 +32,7 @@ body{
     gap: 40px;
 }
 .nav-bar-menu-item{
-    color: white;
+    color: black;
     font-weight:400 ;
     font-size: 18px;
     cursor: pointer;
