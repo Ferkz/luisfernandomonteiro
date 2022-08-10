@@ -15,34 +15,31 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content:right;
     padding: 15px;
     margin-bottom: 10px;
-    background: linear-gradient(68.15deg, #fcf9f9 16.62%,#faf7f4 85.61%);
+    background:linear-gradient(68.15deg, #2c2e30 16.62%,#232225 85.61%); 
     border-bottom: 2px solid white;
-}
-.logo{
-    font-size: 1.5em;
-    text-align: center;
-
 }
 .nav-bar-menu{
     display: flex;
-    gap: 40px;
+    gap: 70px;
 }
 .nav-bar-menu-item{
-    color: black;
+    color:#cfc9c9;
     font-weight:400 ;
     font-size: 18px;
+    margin-right: 20px;
     cursor: pointer;
 }
-.container{
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
+.nav-bar-menu-item:hover{
+  color: #454349;
+  font-size: 20px;
 }
+h2{
+  color: #454349;
+}
+
 .header{
     width: 100%;
     display:flex;
@@ -51,6 +48,12 @@ body{
     margin: 0 auto;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;    
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .title{
     display: flex;
@@ -233,10 +236,9 @@ body{
 footer{
     color:black;
     background: #fff;
-    margin:;
     padding: 20px;  
     bottom: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -301,7 +303,7 @@ footer{
   margin:0;
   justify-content: center;
   margin-bottom: 10px;
-  background: linear-gradient(68.15deg, #827e8a 16.62%,#978b7a 85.61%);
+  background:linear-gradient(68.15deg, #2c2e30 16.62%,#232225 85.61%); 
 
   }
   .container-2 span{
