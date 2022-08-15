@@ -5,8 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="a simple folio">
-	<link rel=icon type=imagex-icon href=img/favicon.ico.png>
-	<link rel="stylesheet" href="style/style.css">
+	<link rel=icon type=imagex-icon href="/img/favicon.ico.png">
+	<link rel="stylesheet" href="./projetos.css">
+    <link rel="stylesheet" href="/style/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 <body>
 	<header class="nav-bar">
 		<nav class="nav-bar-menu">
-			<a class="nav-bar-menu-item" href="index.html">
+			<a class="nav-bar-menu-item" href="/index.html">
 				<i class="fa fa-solid fa-address-card"></i>
 				Sobre</a>
 			<a class="nav-bar-menu-item" href="projetos/projetos.html">
@@ -25,34 +26,19 @@
 				<i class="fa fa-solid fa-newspaper"></i>
 				
 				Artigos</a>
-		</nav>
-
+            </nav>
 	</header>
-
-	<main class="container">
-		<div class="terminal">
-			<div class="header">
-				<div class="buttons"></div>
-				<div class="button-2"></div>
-				<div class="button-3"></div>
-				<div class="title"><strong>Luís Fernando Monteiro</strong></div>
-				
-			</div>
-		<div class="body">
-			<p>FullStack developer, cursando sistemas de informação. Foco em desenvolver ferramentas completas para web utilizando as linguagens JavaScript, Python, Java, HTML e CSS.</p>
-
-			<p>Trainner front-end com frameworks React, Sass e frameworks backend como Express, Bcrypt,  e Mongoose.</p>
-			
-  			<p class="line4">><span class="cursor4">_</span></p>
-			</div>
-		</div>
-	<img src="img/user-image2.jpg" alt="User-image" class="imagem">	
+<main>
+	<div class="projeto">
+		<h3 class="projeto-texto">Projetos</h3>
 	</div>
-	</main>
-	<div class="container-2">
-		<h2>Current Learn <span class="auto-type"></span></h2>
-
+	<div class="projeto">
+		<h4 class="projetos"> <button class="projetos-button">calculadora</button></h4>
+		<span class="oculto">Uma simples calculadora feita com html, css e javascript.</span>
 	</div>
+
+</main>
+	
 <footer class="rodape">
 		&copy;desenvolvido por Luís Fernando Monteiro
 		<a href="https://github.com/Ferkz" target="_blank">
@@ -69,17 +55,8 @@
 			<i class="fa fa-linkedin"></i>
 		</a>
 </footer>
-<script type="javascript/text" src="/script/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://kit.fontawesome.com/da95f53584.js" crossorigin="anonymous"></script>
-<script>
-	var typed = new Typed(".auto-type",{
-    strings: ["JS", "HTML", "CSS", 'React', 'NodeJS'],
-    typeSpeed: 150,
-    backSpeed: 150,
-    loop:true
 
-})
-</script>
+<script src="https://kit.fontawesome.com/da95f53584.js" crossorigin="anonymous"></script>
+<script src="/script/projeto.js"></script>
 </body>
 </html>

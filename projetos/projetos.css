@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+.projeto{
+    margin: 20px;
+}
+.projeto-texto{
+    color: white;
+    margin: 50px;
+    border-bottom: 1px solid white;
+    font-weight: 100;
+    font-size: 25px;
+}
+.projetos{
+    color:  white;
+    font-size:  20px;
+    margin:  50px;
+    cursor: pointer;
+}
+.oculto{
+    display: none;
+}
+.projetos-button{
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+    font-size: 22px;
+    background:linear-gradient(68.15deg,#e2e2e2
+    16.62%,#c9d6ff
+
+    85.61%); 
+
+   
+}
