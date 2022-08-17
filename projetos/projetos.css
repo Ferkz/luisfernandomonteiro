@@ -3,7 +3,8 @@ body{
     height: 100vh;
 }
 .projeto{
-    margin: 20px;
+    margin: 15px;
+     
 }
 .projeto-texto{
     color: white;
@@ -18,18 +19,21 @@ body{
     margin:  50px;
     cursor: pointer;
 }
-.oculto{
-    display: none;
-}
 .projetos-button{
-    width: 20%;
-    height: 10%;
+    color: white;
     border-radius: 5px;
-    font-size: 22px;
-    background:linear-gradient(68.15deg,#e2e2e2
-    16.62%,#c9d6ff
-
-    85.61%); 
-
-   
+    font-size: 17px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.oculto{
+    color: white;
+    border-radius: 6px;
+    display: none;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color:rgba(23, 61, 130,0.6)
 }

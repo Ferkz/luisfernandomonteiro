@@ -19,7 +19,7 @@
 			<a class="nav-bar-menu-item" href="/index.html">
 				<i class="fa fa-solid fa-address-card"></i>
 				Sobre</a>
-			<a class="nav-bar-menu-item" href="projetos/projetos.html">
+			<a class="nav-bar-menu-item" href="/projetos/projetos.html">
 				<i class="fa fa-solid fa-archway"></i>
 				Projetos</a>
 			<a class="nav-bar-menu-item" href="#">
@@ -33,8 +33,18 @@
 		<h3 class="projeto-texto">Projetos</h3>
 	</div>
 	<div class="projeto">
-		<h4 class="projetos"> <button class="projetos-button">calculadora</button></h4>
-		<span class="oculto">Uma simples calculadora feita com html, css e javascript.</span>
+		<h4 class="projetos"><button class="projetos-button"  onclick="mostrar('projeto-1')">Calculadora</button></h4>
+		
+		<span class="oculto" id="projeto-1">
+			Uma simples calculadora feita com html, css e javascript.</span>
+	</div>
+	<div class="projeto">
+		<h4 class="projetos"><button class="projetos-button"  onclick="mostrar('projeto-2')">To-Do-List</button></h4>
+		<span class="oculto" id="projeto-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</span>
+	</div>
+	<div class="projeto">
+		<h4 class="projetos"><button class="projetos-button"  onclick="mostrar('projeto-3')">Projeto-3</button></h4>
+		<span class="oculto" id="projeto-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</span>
 	</div>
 
 </main>

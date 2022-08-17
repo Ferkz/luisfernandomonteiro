@@ -1,7 +1,10 @@
 
-const btn = document.querySelector('button')
-
-btn.addEventListener('click',()=>{
-    const mostraTexto = document.querySelector('.oculto');
-    mostraTexto.classList.remove('oculto');
-});
+function mostrar(el){
+    const mostraTexto = document.getElementById(el).style.display 
+    console.log(mostraTexto);
+    if(mostraTexto =='none'){
+        document.getElementById(el).style.display ='block'
+    }else{
+        document.getElementById(el).style.display='none'
+    }
+}
